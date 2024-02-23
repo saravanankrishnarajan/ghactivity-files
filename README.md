@@ -1,5 +1,3 @@
-# ghactivity
-
 # Github activity log files to parquet
 
 ### Description:
