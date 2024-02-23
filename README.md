@@ -35,7 +35,7 @@ TGT_FILE_FORMAT - Parquet as target file format</br>
 [saravanan@LAPTOP]$ export SRC_FILE_PATTERN=2021-01-13
 [saravanan@LAPTOP]$ export SRC_FILE_PATTERN=2021-01-15
 ```
-### execution
+### Execution
 ```
 spark3-submit --master yarn --py-files itv-ghactivity.zip --conf spark.ui.port=0 app.py
 ```
