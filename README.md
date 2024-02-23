@@ -39,3 +39,10 @@ TGT_FILE_FORMAT - Parquet as target file format</br>
 ```
 spark3-submit --master yarn --py-files itv-ghactivity.zip --conf spark.ui.port=0 app.py
 ```
+### Data source
+
+You can download the activity data from Github archive 
+
+```
+https://www.gharchive.org/
+```
